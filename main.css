@@ -1,0 +1,448 @@
+body{
+    font-family: Quicksand, sans-serif;
+    background-color: whitesmoke;
+}
+
+iframe{
+    box-shadow: 0px 0px 1px black;
+}
+
+#about{
+    padding: 0 35px
+}
+
+#homepage{
+    margin-top: 30px;
+}
+
+#infobar{
+    border-top: silver solid 3px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#infobar a{
+    text-decoration: none;
+    color: white;
+}
+
+#infobar a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>.active>a{ /* active tab font selector */
+    color: rgb(248, 94, 94);
+    font-weight:800;
+}
+
+#loci, #phone, #fax{
+    font-size: 20px;
+    margin-right: 10px;
+    display: inline-flex;
+}
+
+
+hr {
+    color: ghostwhite;
+    width: 75%;
+    border: 0;
+    height: 1px;
+    box-shadow: 0px 0px 4px white; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 3px;
+}
+
+#about>hr {
+    color: rgb(0, 0, 255);
+    width: 75%;
+    border: 0;
+    height: 1px;
+    box-shadow: 0px 0px 1px rgb(139, 138, 138); 
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 3px;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    max-width: 500px;
+    min-width: 200px;
+    box-shadow: rgb(243, 0, 0) 0px 0px 6px;
+    text-align: center;
+}
+
+#footerlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 75%;
+    max-width: 125px;
+    min-width: 25px;
+    box-shadow: rgb(243, 0, 0) 0px 0px 6px;
+    text-align: center;
+}
+
+#brand{
+    width: 100px;
+    height: 30px;
+}
+
+#header{
+    background-color: black;
+    color:white;
+    margin:0;
+    padding: 30px 0;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    margin-left: 0px;
+    margin-right: 0px;
+   
+}
+.navbar-collapse{
+    padding-left: 0;
+    padding-right:0;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left : 10px;
+    border-bottom: solid 2px black;
+}
+
+.navbar-brand{
+    font-size: 24px; /* Changing font size of company name on navbar */
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    font-weight: 800;
+    box-shadow: 0px 0px 1px gray;
+}
+
+.navbar-toggle{
+    padding: 20px;
+    margin-right: 0;
+}
+
+.teampics img{
+    width: 200px;
+    height: 200px;
+}
+
+.teampics {
+    margin-bottom: 40px;
+}
+
+.carousel-inner{
+    box-shadow: 0px 0px 1px black;
+}
+
+.carousel .item{
+    height: 480px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+    height: 470px;
+    width: 100%;
+}
+
+.carousel-caption{
+    color: white;
+    width: 25%;
+    font-size: 16px;
+    font-weight: 400;
+    left: 20px;
+    bottom:10px;
+    text-align: left;
+    background-color: rgb(134, 134, 134);
+    border-radius: 4%;
+    text-align: center;
+}
+
+
+/* Assets Styling */
+.assets{
+    width: 95%;
+    height: 35%;
+}
+
+
+#assetsBanner{
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.assets div.row{
+    margin: 50px;
+    box-shadow: 0px 0px 5px inset gray;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#arcgis img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 100%;
+}
+
+
+#downloadBrochure{
+    border-radius: 40px; 
+    padding: 20px; 
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.assetButtons{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.assetButtons button{
+    min-width: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+/* --------------------------- */
+
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+h3{
+    text-align: center;
+}
+
+h5{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.thumbnail{
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.landOwner h4{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.panel-group h4{
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.05em;
+}
+
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+    max-width: 500px;
+    box-shadow: 0px 0px 2px black;
+    margin: auto;
+}
+
+.list-group a{
+    font-size: 1em;
+}
+
+#contactRelations{
+    border: 1px solid white;
+    width:70%;
+    margin: auto;
+
+}
+
+#contactRelations .thumbnail{
+    border: 1px solid black;
+}
+
+.contactimg{
+    width: 90px; 
+    height: 18px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 1px black;
+}
+
+.contactpage h3{
+   margin-top: 0;
+}
+
+.contactpage ul{
+    list-style:  none;
+    padding-left: 0;
+
+}
+
+
+.contactmaps{
+    width: 350px;
+    height: 200px;
+}
+
+
+
+/* Footer Styling */
+
+footer{
+    margin-top: 3%;
+    border: black solid 1px;
+    background-color:black;
+    color: white;
+    /* padding-top: 50px; */
+   
+}
+
+.footernav{
+    width: 50%;
+    margin: auto;
+    margin-top: 4px;
+    border-bottom: solid red 1px;
+    display: flex;
+    margin-bottom: 13px;
+    padding-bottom: 5px;
+    text-shadow: 0px 7px 12px rgba(63, 62, 62, 0.404);
+   
+}
+
+.footernav div{
+    margin: auto;
+}
+
+.footernav a{
+    color: white;
+}
+
+.footernav a:hover{
+    font-weight: 750;
+}
+.sharebuttons{
+    display: flex;
+    width: 165px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.sharebuttons div{
+   margin-left: 10px;
+}
+
+footer p{
+    
+    margin: auto;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.hide{
+    display: block;
+}
+
+
+
+/* media queries */
+
+
+@media only screen and (max-width: 1701px) and (min-width: 2000px){
+    .carousel .item{
+        height: 810px;
+    }
+
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img{
+        height: 800px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1700px){
+    .carousel .item{
+        height: 610px;
+    }
+
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img{
+        height: 600px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 870px){
+.footernav{
+    width: 90%;
+}
+}
+
+@media only screen and (min-width: 750px){
+.assetButtons button{
+    display: inline-block;
+}
+
+.assetButtons{
+    width:90%;
+    text-align: center;
+}
+
+}
+
+
+@media only screen and (max-width: 420px){
+    .jumbotron h2,h3{
+        font-size: 1.4em;
+    }
+
+    #hide{
+        display:none;
+    }
+
+    .carousel .item{
+    height: 240px;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    height: 220px;
+}
+
+    .carousel-caption{
+    font-size: 12px;
+    width: 40%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .footernav{
+        width: 100%;
+        font-size: .9em;
+    }
+
+    .contactmaps{
+    width: 250px;
+    height: 200px;
+    }
+}
