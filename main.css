@@ -1,3 +1,30 @@
+/* General Styling */
+
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+h3{
+    text-align: center;
+}
+
+h5{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+hr {
+    color: ghostwhite;
+    width: 75%;
+    border: 0;
+    height: 1px;
+    box-shadow: 0px 0px 4px white; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 3px;
+}
+
 body{
     font-family: Quicksand, sans-serif;
     background-color: whitesmoke;
@@ -6,6 +33,8 @@ body{
 iframe{
     box-shadow: 0px 0px 1px black;
 }
+
+/* Header styling */
 
 #about{
     padding: 0 35px
@@ -44,18 +73,6 @@ iframe{
     display: inline-flex;
 }
 
-
-hr {
-    color: ghostwhite;
-    width: 75%;
-    border: 0;
-    height: 1px;
-    box-shadow: 0px 0px 4px white; 
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    margin-top: 3px;
-}
-
 #about>hr {
     color: rgb(0, 0, 255);
     width: 75%;
@@ -78,18 +95,7 @@ hr {
     text-align: center;
 }
 
-#footerlogo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 75%;
-    max-width: 125px;
-    min-width: 25px;
-    box-shadow: rgb(243, 0, 0) 0px 0px 6px;
-    text-align: center;
-}
+
 
 #brand{
     width: 100px;
@@ -102,6 +108,8 @@ hr {
     margin:0;
     padding: 30px 0;
 }
+
+/* Nav Bar Styling */
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
     margin-left: 0px;
     margin-right: 0px;
@@ -227,26 +235,13 @@ hr {
 
 /* --------------------------- */
 
-h2{
-    text-align: center;
-    margin-top: 0;
-}
-
-h3{
-    text-align: center;
-}
-
-h5{
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-
 .thumbnail{
     max-width: 375px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Land Owner Relations Styling */
 
 .landOwner h4{
     text-align: center;
@@ -317,6 +312,19 @@ footer{
     color: white;
     /* padding-top: 50px; */
    
+}
+
+#footerlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 75%;
+    max-width: 125px;
+    min-width: 25px;
+    box-shadow: rgb(243, 0, 0) 0px 0px 6px;
+    text-align: center;
 }
 
 .footernav{
@@ -412,6 +420,17 @@ footer p{
 
 }
 
+@media only screen and (max-width: 470px){
+
+    #downloadBrochure{
+        width: 75%;
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+
 
 @media only screen and (max-width: 420px){
     .jumbotron h2,h3{
@@ -445,4 +464,16 @@ footer p{
     width: 250px;
     height: 200px;
     }
+
+    #downloadBrochure{
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 12px;
+    }
+
+    h2{
+        font-size: .95em;
+    }
+
 }
